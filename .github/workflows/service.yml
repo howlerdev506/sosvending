@@ -3,7 +3,7 @@ name: Deploy to Cloud Run
 env:
   SERVICE_NAME: sosvending
   PROJECT_ID: sosdigital-426300
-  DOCKER_IMAGE_URL: us-east1-docker.pkg.dev/sosdigital/next-dcoker-sosvending/next-dcoker-sosvending
+  DOCKER_IMAGE_URL: next-dcoker-sosvending
 
 on:
   push:
