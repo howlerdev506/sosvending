@@ -5,13 +5,13 @@ ul {
         padding: 0 20px;
     }
     
-    a {
+a {
         text-decoration: none;
         color: #555;
         transition: all 0.3s ease 0s;
     }
     
-    a:hover {
+    .a:hover {
         color: #b2dfdb;
     }
 }

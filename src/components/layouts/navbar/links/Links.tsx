@@ -25,7 +25,7 @@ const Links = () => {
     return(
         <>
             {links.map( link => (
-                <li className={styles.li} key={link.title}><Link href={link.path}>{link.title}</Link></li>
+                <li key={link.title}><Link href={link.path}>{link.title}</Link></li>
             ))}
         </>
     )

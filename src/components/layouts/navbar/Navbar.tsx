@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const Navbar = () => {
     return(
-        <header className={styles.navbar}>
-            <nav className={styles.nav}>
+        <header>
+            <nav className={styles.navbar}>
             <Image
-            src="/images/sosvending-logo.png"
+            src="/images/sosvending-logo2.png"
             alt="Next.js Logo"
             width={440/1.50}
             height={132/1.50}
