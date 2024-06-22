@@ -8,7 +8,7 @@ export default function Home() {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        <video className="bg-video" playsinline="playsInline" autoplay="autoplay" muted="true" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
+        <video className="bg-video" playsInline={true}  autoPlay={true} muted={true} loop={true}><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
         <div className="masthead">
             <div className="masthead-content text-white">
                 <div className="container-fluid px-4 px-lg-0">
