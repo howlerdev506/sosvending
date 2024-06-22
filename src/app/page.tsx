@@ -19,22 +19,22 @@ export default function Home() {
         </div>
         <div className="social-icons">
             <div className="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a className="btn btn-dark m-3" href="https://www.instagram.com/sosvending/"><Image      
+                <a className="btn btn-dark m-3" href="https://wa.me/50640100203"><Image      
                         src="/svgs/whatsap.svg"
                         width={40}
                         height={40}
-                        alt="facebook link"/></a>
+                        alt="whatsapp link"/></a>
                 <a className="btn btn-dark m-3" href="https://www.facebook.com/sosdigital.io"><Image      
                         src="/svgs/facebook.svg"
                         width={45}
                         height={45}
                         alt="facebook link"/></a>
-                <a className="btn btn-dark m-3" href="https://wa.me/40100203"><Image      
+                <a className="btn btn-dark m-3" href="https://www.instagram.com/sosvending/"><Image      
                         src="/svgs/instagram.svg"
                         color="white"
                         width={40}
                         height={40}
-                        alt="facebook link"/></a>
+                        alt="instagram link"/></a>
             </div>
         </div>
 </>
