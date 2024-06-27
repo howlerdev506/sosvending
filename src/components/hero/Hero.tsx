@@ -1,23 +1,42 @@
 
-import Image from "next/image";
+"use client";
 
+import Image from "next/image";
+import bgimage from ".../public/images/bg-hero-min.jpg";
 
 const Hero = () => {
     return(
-        <section>                
-            <div>
-                <h1 >Welcome to Our Company</h1>
-                <p>Discover our amazing products and services.</p>
+    <section className="hero">
+      <div className="">
+        <div className="">
+            <div className="">
+                <div className="">
+                    <h1 className="">
+                        Sosvending <br/>
+                    </h1>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum voluptatem adipisci. Quos molestiae saepedicta nobis pariatur, tempora iusto, ad possimus soluta hic praesentium mollitia consequatur beatae, aspernaturculpa.
+
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    </p>
+                </div>
             </div>
-            <Image
-            src="/images/bg-hero-min.jpg"
-            alt="Next.js Logo"
-            width={350}
-            height={400}
-            />
-            <div className="bg1"></div>
-            <div className="bg2"></div>
-        </section>
+            <div className="">
+                <div className="">
+                    <Image
+                      src="/images/bg-hero-min.jpg"
+                      alt="bg"
+                      width={500}
+                      height={500}
+                    />
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
     )
 }
 

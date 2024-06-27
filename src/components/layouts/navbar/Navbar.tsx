@@ -6,7 +6,7 @@ import Image from "next/image";
 const Navbar = () => {
     return(
         <header>
-            <nav className={styles.navbar}>
+            <nav>
             <Image
             src="/images/sosvending-logo2.png"
             alt="Next.js Logo"
