@@ -5,12 +5,6 @@ const Links = () => {
 
     const links =[
         {
-            title: "Informacion",
-            path: '#Informacion'
-        },        {
-            title: "Maquinas",
-            path: '#Maquinas'
-        },        {
             title: "Servicios",
             path: '#Servicios'
         }, {
@@ -25,7 +19,7 @@ const Links = () => {
     return(
         <>
             {links.map( link => (
-                <li key={link.title}><Link href={link.path}>{link.title}</Link></li>
+                <li key={link.title}><Link href={link.path} className="font-extralight hover:underline">{link.title}</Link></li>
             ))}
         </>
     )
