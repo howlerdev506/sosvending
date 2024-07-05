@@ -12,16 +12,16 @@ const Navbar = () => {
                     <Image             
                     src="/images/sosvending-logo.png"
                     alt="Next.js Logo"
-                    width={300}
-                    height={40}
+                    width={250}
+                    height={36}
                     className="object-contain"/>
                 </Link>
-                <ul className="flex justify-between items-center gap-6">
+                <ul className="flex justify-between items-center gap-6 sm:mr-[200px]">
                     <Links/>
                     <CustomButton
-                        title="Sign in"
+                        title="Login"
                         btnType="button"
-                        containerStyles="bg-primary-blue text-white rounded-full min-w[130px] mr-[130px] sm:mr-[210px]"
+                        containerStyles="bg-primary-blue text-white rounded-full sm:rounded-full min-w[130px] max-"
                     />
                 </ul>
 
