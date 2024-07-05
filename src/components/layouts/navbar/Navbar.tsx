@@ -8,7 +8,7 @@ const Navbar = () => {
     return(
         <header className="sm:w-full absolute z-10">
             <nav className="sm:max-w-[1440] mx-auto flex justify-between items-center">
-                <Link href="/" className="flex justify-center items-center">
+                <Link href="/" className="flex justify-center items-center pl-7 sm:pl-11">
                     <Image             
                     src="/images/sosvending-logo.png"
                     alt="Next.js Logo"
