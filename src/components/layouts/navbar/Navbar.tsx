@@ -6,8 +6,8 @@ import CustomButton from "@/components/customElements/CustomButton";
 
 const Navbar = () => {
     return(
-        <header className="w-full absolute z-10">
-            <nav className="max-w-[1440] mx-auto flex justify-between items-center sm:px-16 px-6 py-4">
+        <header className="sm:w-full absolute z-10">
+            <nav className="sm:max-w-[1440] mx-auto flex justify-between items-center">
                 <Link href="/" className="flex justify-center items-center">
                     <Image             
                     src="/images/sosvending-logo.png"

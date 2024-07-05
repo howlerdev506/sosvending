@@ -18,7 +18,8 @@ export default function RootLayout({
     <html lang="es">
       <body className="relative">
       <Navbar />
-        {children}<Quicklinks/> 
+        {children}
+        <Quicklinks/> 
       <Footer/> 
       </body>
     </html>

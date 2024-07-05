@@ -2,7 +2,7 @@ import {Hero , Services} from "@/components/index";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="sm:overflow-hidden">
       <Hero/>
       <Services/>
     </main>
