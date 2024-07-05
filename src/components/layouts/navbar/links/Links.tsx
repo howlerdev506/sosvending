@@ -1,5 +1,4 @@
 import Link from "next/link"
-import styles from "./Links.module.css";
 
 const Links = () => {
 
@@ -9,10 +8,10 @@ const Links = () => {
             path: '#Servicios'
         }, {
             title: "Productos",
-            path: '#productos'
-        },        {
-            title: "Contactenos",
-            path: '#Contactenos'
+            path: '/productos'
+        },{
+            title: "Conocenos",
+            path: '/about'
         }
     ]
 
