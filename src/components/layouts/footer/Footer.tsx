@@ -47,12 +47,12 @@ function Footer() {
     </div>
 
     <div className='flex flex-wrap justify-between items-center mt-10 border-t border-gray-100 px-6 py-10'>
-      <p className="flex between items-center"> 
+      <p className="flex between items-center sm:pl-11 sm:translate-x-20 " > 
         <Image src='/images/sosvending-logo.png' alt='logo' width={150} height={18} className='object-contain' />
       &copy; 
       {footerInnerHtml.year}
       </p>
-      <div className="footer__copyrights-link">
+      <div className="footer__copyrights-link sm:-translate-x-20">
         {footerInnerHtml.links.map((link)=>(
           <Link key={link.tittle} href={link.url} className="text-gray-500">
             {link.tittle}

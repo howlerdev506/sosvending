@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { FlyoutLink } from "@/components";
 
 const Links = () => {
 
@@ -18,7 +19,7 @@ const Links = () => {
     return(
         <>
             {links.map( link => (
-                <li key={link.title}><Link href={link.path} className="font-extralight hover:underline">{link.title}</Link></li>
+                <li key={link.title}><Link href={link.path}>{link.title}</Link></li>
             ))}
         </>
     )

@@ -1,4 +1,4 @@
-import { MouseEventHandler } from "react";
+import { MouseEventHandler, ReactNode } from "react";
 
 export interface CustomButtonProps {
     title:string;
@@ -23,3 +23,9 @@ export interface item {
     title:string;
     info:string;
 }
+
+export interface FlyoutLinkProp {
+    children?:ReactNode;
+    href?:string;
+    FlyoutContent?:any;
+  }
