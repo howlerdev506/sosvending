@@ -1,5 +1,3 @@
-import { subtle } from "crypto";
-
 export const headerInnerHtml = 
   {
     title: "SOS Vending",
