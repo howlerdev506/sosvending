@@ -1,0 +1,48 @@
+<div className="bg-gradient-to-b from-gray-900 to-black py-16">
+        <div className="container mx-auto px-4 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-white">
+            Meet the <span className="text-purple-500">Innovators</span> Fueling
+            Nebula's Mission
+          </h2>
+        </div>
+
+        <div className="flex justify-center items-center mt-10 flex-shrink">
+          <AutoScroll>
+            <CardUser
+              name="Pablo Martinez"
+              title="Product Manager"
+              imageUrl="/images/vending-m.png"
+            />
+            <CardUser
+              name="Brigite Carderon"
+              title="Product Manager"
+              imageUrl="/images/vending-m.png"
+            />
+            <CardUser
+              name="Jose Pedroza"
+              title="Product Manager"
+              imageUrl="/images/vending-m.png"
+            />
+          </AutoScroll>
+        </div>
+      </div>
+
+      <div className="flex justify-center items-center mt-10 translate-x-6">
+        <AutoScroll>
+          <CardUser
+            name="Pablo Martinez"
+            title="Product Manager"
+            imageUrl="/images/vending-m.png"
+          />
+          <CardUser
+            name="Brigite Carderon"
+            title="Product Manager"
+            imageUrl="/images/vending-m.png"
+          />
+          <CardUser
+            name="Jose Pedroza"
+            title="Product Manager"
+            imageUrl="/images/vending-m.png"
+          />
+        </AutoScroll>
+      </div>
