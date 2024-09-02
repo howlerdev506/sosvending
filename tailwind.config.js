@@ -6,6 +6,15 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      animation: {
+        'infinite-scroll': 'infinite-scroll 10s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(calc(-50% - 16px))' },
+        }
+    },
       screens: {
         'xs': '357px',
         'sm': '640px',
@@ -22,7 +31,7 @@ module.exports = {
         "primary-blue": {
           DEFAULT: "#2B59FF",
           100: "#F5F8FF",
-        },
+        }, 
         "primary-pink": {
           DEFAULT: "#d344a4",
           100: "#d344a4",

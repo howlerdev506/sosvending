@@ -6,9 +6,8 @@ import React from 'react'
 
 const services = () => {
   return (
-    <main className="overflow-hidden">
-      <UnderConstruction/>
-    </main>
+    <div className="overflow-hidden">
+    </div>
   )
 }
 

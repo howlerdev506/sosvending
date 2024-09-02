@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/layouts/navbar/Navbar";
+import Navbar2 from "@/components/layouts/navbar/Navbar2";
 import {Footer, Quicklinks} from "@/components/index"
 
 

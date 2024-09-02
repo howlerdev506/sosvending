@@ -7,12 +7,12 @@ import { AnimatePresence, motion } from 'framer-motion';
 import React, { ReactNode, useState } from 'react'
 
 interface FlyoutLinkProp {
-    children?:ReactNode | string;
-    href?:string;
-    FlyoutContent?:any;
-    className?: string | undefined;
-    isActive?: boolean;
-  }
+  children?: ReactNode | string;
+  href?: string;
+  FlyoutContent?: any;
+  className?: string | undefined;
+  isActive?: boolean;
+}
   
   const FlyoutLink = ({children = "placeholder" ,href,FlyoutContent,className,isActive=false}:FlyoutLinkProp) => {
     const [open,setOppen] = useState(false);

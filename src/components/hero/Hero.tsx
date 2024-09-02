@@ -11,7 +11,6 @@ const Hero = () => {
     return(
     <section className="hero mt-20 sm:mt-0">
         <div className="flex-1 pt-7 sm:pt-36 padding-x">
-
             <div></div>
             <h1 className="hero__title">{headerInnerHtml.title}</h1>
             <span>{headerInnerHtml.subtitle}</span>
