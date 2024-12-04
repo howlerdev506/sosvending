@@ -22,8 +22,8 @@ export const footerInnerHtml =
         title: "Encuentranos",
         links: [
           {type:"social", title: "Whatsap", url: "https://wa.me/50640100203" , image:"/svgs/whatsap.svg"},
-          {type:"social", title: "Instagram", url: "https://www.facebook.com/sosdigital.io", image:"/svgs/instagram.svg"},
-          {type:"social", title: "Facebook", url: "https://www.instagram.com/sosvending/", image:"/svgs/facebook.svg"},
+          {type:"social", title: "Instagram", url: "https://www.instagram.com/sosvending.io/", image:"/svgs/instagram.svg"},
+          {type:"social", title: "Facebook", url: "https://www.facebook.com/sosdigital.io", image:"/svgs/facebook.svg"},
         ],
     }
   ];
